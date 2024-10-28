@@ -1,0 +1,8 @@
+__pycache__/
+ai_hub_data
+bg2_room_sound
+home_event_sounds
+not_home_noise_sound
+speechbrain_model
+log.txt
+*.log

@@ -1,11 +1,23 @@
 import librosa, numpy as np
 from model.mobilenet_mfcc import mobilenet_v2_mfcc
 import torch, time, os
+import noisereduce as nr
+
+hop_length = 512
+n_fft = 2048
+hop_length_duration = float(hop_length) / 16000
+n_fft_duration = float(n_fft) / 16000
+
+def get_last_1sec_db(signal, sr=16000):
+    stft = librosa.stft(signal[-sr:], n_fft=n_fft, hop_length=hop_length)
+    db_values = librosa.amplitude_to_db(np.abs(stft))
+    return db_values.max()
 
 # wav 파일을 MFCC로 변환하는 함수
 def wav_to_mfcc(file_path, n_mfcc=40, max_len=100):
-    y, sr = librosa.load(file_path, sr=16000)
-    mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=n_mfcc)
+    y, sr = librosa.load(file_path, sr=16000, offset=8.5)
+    reduced_noise = nr.reduce_noise(y=y, sr=sr)
+    mfcc = librosa.feature.mfcc(y=reduced_noise, sr=sr, n_mfcc=n_mfcc)
     
     # MFCC의 길이를 max_len으로 맞추기
     if mfcc.shape[1] < max_len:
@@ -13,12 +25,12 @@ def wav_to_mfcc(file_path, n_mfcc=40, max_len=100):
     else:
         mfcc = mfcc[:, :max_len]
     
-    return mfcc
+    return mfcc, y
 
 def predict_single_file(file_path, model, class_names, device='cuda'):
     """단일 WAV 파일에 대한 예측을 수행합니다."""
     # 오디오 파일 로드 및 MFCC 변환
-    mfcc = wav_to_mfcc(file_path)
+    mfcc, y = wav_to_mfcc(file_path)
     
     # MFCC를 모델 입력 형식으로 변환
     mfcc = np.expand_dims(mfcc, axis=(0, 1))  # (1, 1, n_mfcc, max_len) 형태로 변환
@@ -35,7 +47,7 @@ def predict_single_file(file_path, model, class_names, device='cuda'):
     predicted_label = class_names[predicted_class]
     confidence = probabilities[0][predicted_class].item()
     
-    return predicted_label, confidence
+    return predicted_label, confidence, get_last_1sec_db(y)
 
 
 # 모델 로딩
@@ -48,7 +60,7 @@ def load_model(num_classes = 17):
     return model, device
 
 class_names = ['가구끄는소리',
- '강아지짓는소리',
+ '강아지짖는소리',
  '고양이우는소리',
  '골프퍼팅(골굴리는소리)',
  '드럼세탁기소리',

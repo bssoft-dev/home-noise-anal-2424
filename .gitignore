@@ -5,4 +5,5 @@ home_event_sounds
 not_home_noise_sound
 speechbrain_model
 log.txt
+env.py
 *.log

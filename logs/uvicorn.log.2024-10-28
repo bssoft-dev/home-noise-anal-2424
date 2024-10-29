@@ -1,0 +1,233 @@
+2024-10-28 15:45:29,137[INFO] Will watch for changes in these directories: ['/home/bssoft/home-noise-anal-2424']
+2024-10-28 15:45:29,137[INFO] Uvicorn running on http://0.0.0.0:24245 (Press CTRL+C to quit)
+2024-10-28 15:45:29,138[INFO] Started reloader process [3914676] using StatReload
+2024-10-28 15:45:31,522[INFO] Started server process [3914786]
+2024-10-28 15:45:31,522[INFO] Waiting for application startup.
+2024-10-28 15:45:31,523[INFO] Application startup complete.
+2024-10-28 17:10:35,566[WARNING] StatReload detected changes in 'database.py'. Reloading...
+2024-10-28 17:10:35,598[INFO] Shutting down
+2024-10-28 17:10:35,699[INFO] Waiting for application shutdown.
+2024-10-28 17:10:35,699[INFO] Application shutdown complete.
+2024-10-28 17:10:35,700[INFO] Finished server process [3914786]
+2024-10-28 17:10:38,031[INFO] Started server process [4081724]
+2024-10-28 17:10:38,031[INFO] Waiting for application startup.
+2024-10-28 17:10:38,031[INFO] Application startup complete.
+2024-10-28 17:11:19,752[WARNING] StatReload detected changes in 'env.py'. Reloading...
+2024-10-28 17:11:19,777[INFO] Shutting down
+2024-10-28 17:11:19,878[INFO] Waiting for application shutdown.
+2024-10-28 17:11:19,878[INFO] Application shutdown complete.
+2024-10-28 17:11:19,878[INFO] Finished server process [4081724]
+2024-10-28 17:11:22,379[INFO] Started server process [4083255]
+2024-10-28 17:11:22,379[INFO] Waiting for application startup.
+2024-10-28 17:11:22,379[INFO] Application startup complete.
+2024-10-28 17:13:44,969[WARNING] StatReload detected changes in 'models.py'. Reloading...
+2024-10-28 17:13:44,980[INFO] Shutting down
+2024-10-28 17:13:45,081[INFO] Waiting for application shutdown.
+2024-10-28 17:13:45,081[INFO] Application shutdown complete.
+2024-10-28 17:13:45,081[INFO] Finished server process [4083255]
+2024-10-28 17:13:47,427[INFO] Started server process [4087878]
+2024-10-28 17:13:47,427[INFO] Waiting for application startup.
+2024-10-28 17:13:47,427[INFO] Application startup complete.
+2024-10-28 17:16:29,001[WARNING] StatReload detected changes in 'models.py'. Reloading...
+2024-10-28 17:16:29,004[INFO] Shutting down
+2024-10-28 17:16:29,105[INFO] Waiting for application shutdown.
+2024-10-28 17:16:29,106[INFO] Application shutdown complete.
+2024-10-28 17:16:29,106[INFO] Finished server process [4087878]
+2024-10-28 17:16:31,471[INFO] Started server process [4093111]
+2024-10-28 17:16:31,471[INFO] Waiting for application startup.
+2024-10-28 17:16:31,471[INFO] Application startup complete.
+2024-10-28 17:17:31,746[WARNING] StatReload detected changes in 'models.py'. Reloading...
+2024-10-28 17:17:31,781[INFO] Shutting down
+2024-10-28 17:17:31,881[INFO] Waiting for application shutdown.
+2024-10-28 17:17:31,882[INFO] Application shutdown complete.
+2024-10-28 17:17:31,882[INFO] Finished server process [4093111]
+2024-10-28 17:17:34,267[INFO] Started server process [4095128]
+2024-10-28 17:17:34,268[INFO] Waiting for application startup.
+2024-10-28 17:17:34,268[INFO] Application startup complete.
+2024-10-28 17:18:12,229[WARNING] StatReload detected changes in 'models.py'. Reloading...
+2024-10-28 17:18:12,300[INFO] Shutting down
+2024-10-28 17:18:12,400[INFO] Waiting for application shutdown.
+2024-10-28 17:18:12,401[INFO] Application shutdown complete.
+2024-10-28 17:18:12,401[INFO] Finished server process [4095128]
+2024-10-28 17:18:14,727[INFO] Started server process [4096442]
+2024-10-28 17:18:14,727[INFO] Waiting for application startup.
+2024-10-28 17:18:14,728[INFO] Application startup complete.
+2024-10-28 17:19:11,070[WARNING] StatReload detected changes in 'env.py'. Reloading...
+2024-10-28 17:19:11,127[INFO] Shutting down
+2024-10-28 17:19:11,228[INFO] Waiting for application shutdown.
+2024-10-28 17:19:11,229[INFO] Application shutdown complete.
+2024-10-28 17:19:11,229[INFO] Finished server process [4096442]
+2024-10-28 17:19:13,548[INFO] Started server process [4098371]
+2024-10-28 17:19:13,548[INFO] Waiting for application startup.
+2024-10-28 17:19:13,548[INFO] Application startup complete.
+2024-10-28 17:24:26,993[WARNING] StatReload detected changes in 'models.py'. Reloading...
+2024-10-28 17:24:27,060[INFO] Shutting down
+2024-10-28 17:24:27,161[INFO] Waiting for application shutdown.
+2024-10-28 17:24:27,161[INFO] Application shutdown complete.
+2024-10-28 17:24:27,161[INFO] Finished server process [4098371]
+2024-10-28 17:25:21,036[WARNING] StatReload detected changes in 'database.py'. Reloading...
+2024-10-28 17:28:26,041[INFO] Will watch for changes in these directories: ['/home/bssoft/home-noise-anal-2424']
+2024-10-28 17:28:26,041[INFO] Uvicorn running on http://0.0.0.0:24245 (Press CTRL+C to quit)
+2024-10-28 17:28:26,041[INFO] Started reloader process [4116226] using StatReload
+2024-10-28 17:28:28,611[INFO] Started server process [4116364]
+2024-10-28 17:28:28,611[INFO] Waiting for application startup.
+2024-10-28 17:28:28,645[ERROR] Traceback (most recent call last):
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 674, in __init__
+    self.__connect()
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 900, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "172.30.1.17", port 5432 failed: FATAL:  database "itech_harmony_2424" does not exist
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/starlette/routing.py", line 693, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/home-noise-anal-2424/app.py", line 11, in lifespan
+    create_db_and_tables()
+  File "/home/bssoft/home-noise-anal-2424/database.py", line 9, in create_db_and_tables
+    SQLModel.metadata.create_all(engine)
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/sql/schema.py", line 5868, in create_all
+    bind._run_ddl_visitor(
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3252, in _run_ddl_visitor
+    with self.begin() as conn:
+         ^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3242, in begin
+    with self.connect() as conn:
+         ^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 148, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2442, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 179, in _do_get
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 674, in __init__
+    self.__connect()
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 900, in __connect
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/pool/base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bssoft/anaconda3/envs/py312torch/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "172.30.1.17", port 5432 failed: FATAL:  database "itech_harmony_2424" does not exist
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+2024-10-28 17:28:28,645[ERROR] Application startup failed. Exiting.
+2024-10-28 17:30:02,510[WARNING] StatReload detected changes in 'database.py'. Reloading...
+2024-10-28 17:30:05,079[INFO] Started server process [4119516]
+2024-10-28 17:30:05,079[INFO] Waiting for application startup.
+2024-10-28 17:30:05,107[INFO] Application startup complete.
+2024-10-28 17:30:50,915[INFO] Will watch for changes in these directories: ['/home/bssoft/home-noise-anal-2424']
+2024-10-28 17:30:50,916[INFO] Uvicorn running on http://0.0.0.0:24245 (Press CTRL+C to quit)
+2024-10-28 17:30:50,916[INFO] Started reloader process [4121090] using StatReload
+2024-10-28 17:30:53,420[INFO] Started server process [4121229]
+2024-10-28 17:30:53,420[INFO] Waiting for application startup.
+2024-10-28 17:30:53,449[INFO] Application startup complete.
+2024-10-28 17:34:55,811[WARNING] StatReload detected changes in 'models.py'. Reloading...
+2024-10-28 17:34:55,897[INFO] Shutting down
+2024-10-28 17:34:55,998[INFO] Waiting for application shutdown.
+2024-10-28 17:34:55,998[INFO] Application shutdown complete.
+2024-10-28 17:34:55,998[INFO] Finished server process [4121229]
+2024-10-28 17:34:58,622[INFO] Started server process [4129042]
+2024-10-28 17:34:58,623[INFO] Waiting for application startup.
+2024-10-28 17:34:58,652[INFO] Application startup complete.
+2024-10-28 18:14:47,891[WARNING] StatReload detected changes in 'app.py'. Reloading...
+2024-10-28 18:14:47,946[INFO] Shutting down
+2024-10-28 18:14:48,046[INFO] Waiting for application shutdown.
+2024-10-28 18:14:48,047[INFO] Application shutdown complete.
+2024-10-28 18:14:48,047[INFO] Finished server process [4129042]
+2024-10-28 18:14:50,721[INFO] Started server process [11203]
+2024-10-28 18:14:50,721[INFO] Waiting for application startup.
+2024-10-28 18:14:50,751[INFO] Application startup complete.
+2024-10-29 09:22:30,367[INFO] Shutting down
+2024-10-29 09:22:30,467[INFO] Waiting for application shutdown.
+2024-10-29 09:22:30,468[INFO] Application shutdown complete.
+2024-10-29 09:22:30,468[INFO] Finished server process [11203]

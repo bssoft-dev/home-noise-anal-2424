@@ -1,4 +1,5 @@
 __pycache__/
+logs/
 ai_hub_data
 bg2_room_sound
 home_event_sounds

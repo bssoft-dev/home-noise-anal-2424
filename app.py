@@ -28,7 +28,7 @@ app.add_middleware(
 
 def decide_noise_level(db_value):
     
-    # 평균값에 따라 노이즈 레벨을 결정
+    # db_value로 노이즈 레벨을 결정
     if db_value < 34:
         noise_level = "보통"
     elif db_value < 45:
